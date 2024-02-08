@@ -12,7 +12,7 @@ let nome = window.prompt("Qual é seu nome")
 if(IMC<18.5){
     alert("Baixo peso")
 }
-else if (24.99<IMC<18.5){
+else if (24.99>IMC>18.5){
     alert("Normal")
 }
 else if (29.99>IMC<25){
